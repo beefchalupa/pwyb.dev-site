@@ -2,6 +2,16 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+<form class="tx-form" data-lang="eng" action="https://send.pageclip.co/WlUDiOxc1IudZnzoZg9jgy2GwrP2yUfC/subscribe-form" method="post">
+  <input
+    class="tx-input"
+    placeholder="Enter your email to receive:"
+    aria-label="Enter your email" type="text" name="email"
+  />
+  <button class="tx-form_button">
+    {% include ".icons/material/email-send-outline.svg" %}
+  </button>
+</form>
 
 <a href="https://integrately.com?ref=jut1sk&utm_campaign=Website Referral" target="_blank"><img src="https://integrately-images.s3-us-west-2.amazonaws.com/we-automate-with-integrately-light.svg" width="120" alt="Integrately - Integration platform" title="Click to learn more"/></a>
 {{ content | safe }}
